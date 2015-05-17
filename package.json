@@ -1,0 +1,23 @@
+{
+  "name": "scatter-gather",
+  "version": "0.0.1",
+  "description": "Information systems Lab #2",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm --harmony index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lesha Koss <regiusprod@gmail.com> (https://github.com/LeshaKoss)",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "http-status": "^0.1.8",
+    "koa": "^0.20.0",
+    "koa-body": "^1.2.1",
+    "koa-compose": "^2.3.0",
+    "koa-etag": "^2.0.0",
+    "koa-fresh": "0.0.3",
+    "koa-logger": "^1.2.2",
+    "koa-router": "^4.3.2"
+  }
+}
