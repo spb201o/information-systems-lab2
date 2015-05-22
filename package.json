@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Information systems Lab #2",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "npm --harmony index.js"
+    "start": "node --harmony index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lesha Koss <regiusprod@gmail.com> (https://github.com/LeshaKoss)",
@@ -18,6 +19,8 @@
     "koa-etag": "^2.0.0",
     "koa-fresh": "0.0.3",
     "koa-logger": "^1.2.2",
-    "koa-router": "^4.3.2"
+    "koa-router": "^4.3.2",
+    "pg": "^4.3.0",
+    "pg-promise": "^1.2.3"
   }
 }
